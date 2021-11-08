@@ -6,7 +6,7 @@ const sequelize = require('./config/connection');
 
 // setup Express App
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3005;
 
 // code below sets up the Express app to handle data parsing
 app.use(express.json());
